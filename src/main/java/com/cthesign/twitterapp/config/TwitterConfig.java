@@ -16,10 +16,10 @@ public class TwitterConfig {
     public TwitterFactory getFactoryInstance() {
         ConfigurationBuilder configurationBuilder = new ConfigurationBuilder();
         configurationBuilder.setDebugEnabled(true)
-                .setOAuthConsumerKey("8Ts7X9fwcOQgjab1kO1if1hM2")
-                .setOAuthConsumerSecret("PKzGDjzIbMEnmF3zAUgDatzpCxcSNTisuHVFKcGXC0jSncLpCH")
-                .setOAuthAccessToken("1167133671851270144-IW2XZzHZ7X13URDpvtCl6XuatcFCq6")
-                .setOAuthAccessTokenSecret("8O5HobAUOherOMWBCX3OitSkkuKq0sWbJfyOPWLA489oM")
+                .setOAuthConsumerKey("")
+                .setOAuthConsumerSecret("")
+                .setOAuthAccessToken("")
+                .setOAuthAccessTokenSecret("")
                 .setHttpConnectionTimeout(2000);
         return new TwitterFactory(configurationBuilder.build());
     }
